@@ -6,4 +6,5 @@ def es_primo(n):
             return False
     return True
 
-print(es_primo(43))
+numero = int(input("Enter a number: "))
+print("Is prime:", es_primo(numero))
